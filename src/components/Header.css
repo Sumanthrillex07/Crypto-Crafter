@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap");
+.title {
+  flex: 1;
+  color: var(--gold);
+  font-family: "Fredoka",cursive;
+  font-weight: bolder;
+  font-size: 3 rem;
+  cursor: pointer;
+  border-radius: 2rem;
+}
