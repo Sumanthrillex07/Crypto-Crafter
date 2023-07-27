@@ -1,0 +1,10 @@
+.banner {
+  background-image: image("banner2.jpg");
+}
+.bannerContent {
+  color: var(--gold);
+  flex-direction: column;
+  size: 3 rem;
+}
+/* # CSS */
+@import "react-alice-carousel/lib/alice-carousel.css";
