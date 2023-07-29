@@ -1,5 +1,5 @@
 <h1 align="center"> Crypto Crafter </h1>
-<h4 align="center"> This website is a great way to stay up-to-date on the latest cryptocurrency and it's trends. </h4>
+<h3 align="center"> This website is a great way to stay up-to-date on the latest cryptocurrency and it's trends. </h3>
 
 ### Website link [here](https://dynamic-crypto-crafter.netlify.app/).
 #### This website displays a list of cryptocurrencies, as well as the trending cryptocurrencies.
