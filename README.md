@@ -18,6 +18,8 @@ Here are some of the features that make this website a great resource for crypto
 * Dark mode support: The website supports dark mode. This is a great feature for people who prefer to use their computers in a dark environment.
 
  **Languages** : The website is built using HTML, CSS, JavaScript, ReactJS.
+
+ 
  **Styling** : The website is styled through CSS and also used Material UI 5 for styling.Material UI is a popular React UI library that    
                provides a wide range of components and utilities for building modern web applications.
 ## Conclusion
