@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="icon">
               <a
                 title="Click it!!"
-                href="https://instagram.com/sumanthrillex_07?igshid=YmMyMTA2M2Y="
+                href="https://instagram.com/_sumanthrillex_?igshid=YmMyMTA2M2Y="
                 target="_blank"
                 className="insta"
               >
