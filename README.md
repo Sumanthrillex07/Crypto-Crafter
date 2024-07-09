@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+<h1 align="center"> Crypto Crafter </h1>
+<h3 align="center"> This website is a great way to stay up-to-date on the latest cryptocurrency and it's trends. </h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Website link [here](https://dynamic-crypto-crafter.netlify.app/).
+#### This website displays a list of cryptocurrencies, as well as the trending cryptocurrencies.
+The data is pulled from the CoinGecko API.
 
-## Available Scripts
+## Introduction
+ This website is a great way to stay up-to-date on the latest cryptocurrency news and trends. It's easy to use and has a modern design. The dark mode support is a nice touch, and it's great that the data is pulled from the CoinMarketCap API, so you can be sure that it's accurate.
 
-In the project directory, you can run:
+## Features
+Here are some of the features that make this website a great resource for cryptocurrency enthusiasts:
 
-### `npm start`
+* List of cryptocurrencies: The website lists the cryptocurrencies that are currently available. This includes both popular cryptocurrencies like Bitcoin and Ethereum, as well as more obscure coins.
+* List of trending cryptocurrencies: The website also lists the trending cryptocurrencies. This is a great way to find out which coins are gaining popularity and which ones you should be keeping an eye on.
+* Price trend for each cryptocurrency: The website provides a price trend for each cryptocurrency. It shows the historical price of the coin, as well as the current price( 1h, 24h, 7d, 14d, 30d, 1yr).
+* About cryptocurrencies: The website also provides sufficient information about cryptocurrencies. This includes about coins, price movements, and regulatory changes.
+* Dark mode support: The website supports dark mode. This is a great feature for people who prefer to use their computers in a dark environment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ **Languages** : The website is built using HTML, CSS, JavaScript, ReactJS.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ 
+ **Styling** : The website is styled through CSS and also used Material UI 5 for styling.Material UI is a popular React UI library that    
+               provides a wide range of components and utilities for building modern web applications.
+## Conclusion
+This website is a great resource for cryptocurrency enthusiasts. It's easy to use, has a modern design, and provides a wealth of information about cryptocurrencies. I highly recommend checking it out if you're interested in learning more about cryptocurrency.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I hope this helps!
