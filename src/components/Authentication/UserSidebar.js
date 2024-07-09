@@ -10,7 +10,7 @@ import { AiFillDelete } from "react-icons/ai";
 import { doc, setDoc } from "firebase/firestore";
 import axios from "axios";
 
-const Container = styled("div")({
+const Container = styled("div")({ 
   width: 350,
   padding: 25,
   height: "100%",
