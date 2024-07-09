@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="icon">
               <a
                 title="Click it!!"
-                href="https://instagram.com/sumanthrillex_07?igshid=YmMyMTA2M2Y="
+                href="https://instagram.com/_sumanthrillex_?igshid=YmMyMTA2M2Y="
                 target="_blank"
                 className="insta"
               >
@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="icon">
               <a
                 title="Click it!!"
-                href="https://github.com/Sumanthrillex07"
+                href="/"
                 target="_blank"
                 className="insta"
               >
@@ -59,8 +59,6 @@ const Footer = () => {
             </div>
             <span>Github</span>
           </div>
-
-          <h6 className="copyright">©Copyright 2023 Sumanth</h6>
         </div>
       </section>
     </>

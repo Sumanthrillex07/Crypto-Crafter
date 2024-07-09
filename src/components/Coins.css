@@ -19,6 +19,25 @@
   margin-left: -4rem;
 }
 
+.search-bar{
+  /* align-items: right; */
+  /* display: flex; */
+  justify-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.search-form{
+  display: flex;
+  margin: 10px 10px;
+}
+.search{
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: var(--box-color);
+  color: var(--body_color);
+  /* justify-items: center; */
+}
 .coin-row {
   display: flex;
   justify-content: space-between;
@@ -35,10 +54,20 @@
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
+.page {
+  background-color: var(--box-color);
+  display: flex;
+  padding: 20;
+  
+  width: 100%;
+  justify-content: center;
+  color: var(--body_color);
+  border-radius: 10px;
+}
 
 img {
   height: 40px;
-  margin-right: 8px;
+  margin-right: 10px;
   width: auto;
 }
 

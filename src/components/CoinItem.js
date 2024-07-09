@@ -5,7 +5,7 @@ import "./Coins.css";
 const CoinItem = (props) => {
   let profit = props.coins.price_change_percentage_24h >= 0;
   return (
-    <div className="coin-row">
+    <div className="coin-row"> 
       <p>{props.coins.market_cap_rank}</p>
       <div className="img-symbol">
         <img src={props.coins.image} alt="" />

@@ -3,9 +3,12 @@ import React from "react";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
 import DarkMode from "./DarkMode/DarkMode";
-
+import AuthModal from "./Authentication/AuthModal";
+import { CryptoState } from "../CryptoContext";
+import UserSidebar from "./Authentication/UserSidebar";
 const Header = () => {
   const history = useNavigate();
+  const { user } = CryptoState();
   return (
     <AppBar color="transparent" position="static">
       <Container>
@@ -24,6 +27,7 @@ const Header = () => {
             {" "}
             <DarkMode />
           </p>
+          {user ? <UserSidebar /> : <AuthModal />}
         </Toolbar>
       </Container>
     </AppBar>

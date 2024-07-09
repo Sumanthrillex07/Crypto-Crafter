@@ -4,10 +4,15 @@ import React, { useState, useEffect } from "react";
 import DOMPurify from "dompurify";
 
 import "./Coin.css";
+import { CryptoState } from "../CryptoContext";
+import { Button } from "@mui/material";
+import { doc, setDoc } from "firebase/firestore";
+import { db } from "../firebase";
 
 const Coin = () => {
   const params = useParams();
   const [coin, setCoin] = useState({});
+  const { user, watchlist, setAlert } = CryptoState();
 
   const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}`;
 
@@ -22,11 +27,68 @@ const Coin = () => {
       });
   }, []);
   // eslint-disable-next-line
+  const inWatchlist = watchlist.includes(coin?.id);
+  const addToWatchlist = async () => {
+    const coinRef = doc(db, "watchlist", user.uid);
+    try {
+      await setDoc(coinRef, {
+        coins: watchlist ? [...watchlist, coin.id] : [coin.id],
+      });
+      setAlert({
+        open: true,
+        message: `${coin.name} Added to watchlist`,
+        type: "success",
+      });
+    } catch (error) {
+      setAlert({
+        open: true,
+        message: error.message,
+        type: "error",
+      });
+    }
+  };
+  const removeFromWatchlist = async () => {
+    const coinRef = doc(db, "watchlist", user.uid);
+    try {
+      await setDoc(
+        coinRef,
+        {
+          coins: watchlist.filter((watch) => watch !== coin?.id),
+        },
+        { merge: "true" }
+      );
+      setAlert({
+        open: true,
+        message: `${coin.name} Removed From watchlist`,
+        type: "success",
+      });
+    } catch (error) {
+      setAlert({
+        open: true,
+        message: error.message,
+        type: "error",
+      });
+    }
+  };
+
   return (
     <div>
       <div className="coin-container">
         <div className="content nm">
           <h1>{coin.name}</h1>
+          {user && (
+            <Button
+              variant="outlined"
+              style={{
+                width: "100%",
+                height: 40,
+                backgroundColor: `var(--gold)`,
+              }}
+              onClick={inWatchlist ? removeFromWatchlist : addToWatchlist}
+            >
+              {inWatchlist ? "Remove from watchlist" : "Add to Watchlist"}
+            </Button>
+          )}
         </div>
         <div className="content">
           <div className="rank">
