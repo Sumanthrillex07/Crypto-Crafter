@@ -6,7 +6,7 @@
 The data is pulled from the CoinGecko API.
 
 ## Introduction
- This website is a great way to stay up-to-date on the latest cryptocurrency news and trends. It's easy to use and has a modern design. The dark mode support is a nice touch, and it's great that the data is pulled from the CoinMarketCap API, so you can be sure that it's accurate.
+ This website is a great way to stay up-to-date on the latest cryptocurrency news and trends. It's easy to use and has a modern design. The dark mode support is a nice touch, and it's great that the data is pulled from the CoinGecko API, so you can be sure that it's accurate.
 
 ## Features
 Here are some of the features that make this website a great resource for cryptocurrency enthusiasts:
