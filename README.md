@@ -12,11 +12,27 @@ The data is pulled from the CoinGecko API.
 Here are some of the features that make this website a great resource for cryptocurrency enthusiasts:
 
 * List of cryptocurrencies: The website lists the cryptocurrencies that are currently available. This includes both popular cryptocurrencies like Bitcoin and Ethereum, as well as more obscure coins.
-* List of trending cryptocurrencies: The website also lists the trending cryptocurrencies. This is a great way to find out which coins are gaining popularity and which ones you should be keeping an eye on.
-* Price trend for each cryptocurrency: The website provides a price trend for each cryptocurrency. It shows the historical price of the coin, as well as the current price( 1h, 24h, 7d, 14d, 30d, 1yr).
-* About cryptocurrencies: The website also provides sufficient information about cryptocurrencies. This includes about coins, price movements, and regulatory changes.
+  
+![image](https://github.com/user-attachments/assets/bb84b778-ee82-463b-97dc-c6e1f22c2f34)
+
 * User can login/SignUp to keep their favourite cryptos in their watchlist to have an eye on them.
+  
+* ![image](https://github.com/user-attachments/assets/7ae2d07c-8dfc-40b0-be73-1999164f46bb)
+
+* List of trending cryptocurrencies with **Search** Functionality: The website also lists the trending cryptocurrencies. This is a great way to find out which coins are gaining popularity and which ones you should be keeping an eye on.
+  
+* ![image](https://github.com/user-attachments/assets/1bbebcc9-a7f8-4c06-8637-e16a30e81bdb)
+  
+* Price trend for each cryptocurrency: The website provides a price trend for each cryptocurrency. It shows the historical price of the coin, as well as the current price( 1h, 24h, 7d, 14d, 30d, 1yr).
+  
+* ![image](https://github.com/user-attachments/assets/4c8a3621-fc59-49b1-9e94-ffaa597d2c7a)
+
+* About cryptocurrencies: The website also provides sufficient information about cryptocurrencies. This includes about coins, price movements, and regulatory changes.
+
 * Dark mode support: The website supports dark mode. This is a great feature for people who prefer to use their computers in a dark environment.
+
+* ![image](https://github.com/user-attachments/assets/ce33d008-bbb7-4563-9a06-098007c1cadf)
+
 
  **Languages** : The website is built using HTML, CSS, JavaScript, ReactJS, Firebase.
 
