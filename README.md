@@ -39,6 +39,39 @@ Here are some of the features that make this website a great resource for crypto
  
  **Styling** : The website is styled through CSS and also used Material UI 5 for styling. Material UI is a popular React UI library that    
                provides a wide range of components and utilities for building modern web applications.
+
+## Instructions to run Locally
+
+1. Clone the project 
+   - `https://github.com/Sumanthrillex07/Crypto-Crafter.git`
+3. Navigate to the project directory
+   - `cd Crypto-Crafter/`
+4. Install node dependencies
+   - `npm install`
+5. Replace Firebase API keys with your configurations
+   - Get your keys from [here](https://firebase.google.com/) 
+6. Update the following variables in firebase-auth or create a `.env` file.
+```bash
+  REACT_APP_FIREBASE_API_KEY
+  REACT_APP_FIREBASE_STORAGE_BUCKET
+  REACT_APP_FIREBASE_PROJECT_ID
+  REACT_APP_FIREBASE_AUTH_DOMAIN
+  REACT_APP_FIREBASE_MESSAGING_SENDER
+  REACT_APP_FIREBASE_APP_ID
+  ```
+6. Start the app
+   - `npm run start`
+7. The app is now running 🥳
+
+## Useful Links
+
+- [Project Demo](https://crypto-crafter.web.app/) Web version
+- [GitHub Link](https://github.com/Sumanthrillex07/Crypto-Crafter) (Feel free to Star ⭐ the repo)
+
+## Need help?
+
+Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/p-sumanth-1b4666235/)
+
 ## Conclusion
 This website is a great resource for cryptocurrency enthusiasts. It's easy to use, has a modern design, and provides a wealth of information about cryptocurrencies. I highly recommend checking it out if you're interested in learning more about cryptocurrency.
 
